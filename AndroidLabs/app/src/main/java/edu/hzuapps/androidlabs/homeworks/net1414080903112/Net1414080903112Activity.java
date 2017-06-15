@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlabs.homeworks.net1414080903112;
+package edu.hzuapps.androidlabs.homeworks.Net1414080903112;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -35,7 +35,7 @@ public class Net1414080903112Activity extends AppCompatActivity {
             public void onClick(View v) {
 
                 // 给bnt1添加点击响应事件,即带参数跳转到另一页面（参数为空课室数据的筛选参数）
-                Intent intent =new Intent(Net1414080903112Activity.this,result1414080903112.class);
+                Intent intent =new Intent(Net1414080903112Activity.this,Result1414080903112.class);
                 intent.putExtra("weekday", view.getText());
                 intent.putExtra("time", view2.getText());
                 //启动
