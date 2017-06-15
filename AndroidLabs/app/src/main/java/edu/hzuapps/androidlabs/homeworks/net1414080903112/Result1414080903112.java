@@ -15,7 +15,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 
-public class result1414080903112 extends AppCompatActivity {
+public class Result1414080903112 extends AppCompatActivity {
     String what = "";
     String timeid;
     Handler handler;
